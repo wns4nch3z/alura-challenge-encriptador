@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- BASIC DATA -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ENCRIPTADOR DE TEXTO | ALURA</title>
+
+        <!-- FAVICON -->
+        <link rel="icon" href="./assets/img/logo.svg" type="image/svg+xml">
+
+        <!-- CSS STYLE -->
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <!-- METADATA -->
+        <meta name="description" content="Desafío de encriptador de texto | ALURA">
+        <meta name="keywords" content="encriptador, alura, desafío, desencriptador">
+        <meta name="author" content="wnsanchez">
+
+    </head>
+    <!-- START BODY -->
+    <body>
+        <div class="container">
+            <!-- HEADER  -->
+            <header class="header">
+                <a href="#" class="header__a">
+                    <img src="./assets/img/logo.svg" alt="" class="header__img">
+                </a>  
+            </header>
+            <!-- END HEADER  -->
+             
+            <!-- MAIN -->
+            <main class="main">
+                <!-- SECTION ONE  -->
+                <section class="section__one">
+                    <textarea class="section__one__textarea" id="mensaje" placeholder="Ingrese el texto aqui"></textarea>
+                    <div class="section__one__alert">
+                        <img src="assets/img/group.svg" alt="" class="section__one__img">
+                        <h4 class="section__one__h4">Solo letras minúsculas y sin acentos</h4>
+                    </div>
+                    <div class="section__one__buttons">
+                        <button class="section__one__btn section__one__enc">Encriptar</button>
+                        <button class="section__one__btn section__one__dec">Desencriptar</button>
+                    </div>
+                </section>
+
+                <!-- SECTION TWO  -->
+                <section class="section__two">
+                    <div class="section__two__hidden">
+                        <img src="./assets/img/muneco.svg" alt="Muñeco" class="section__two__img">
+                        <div class="section__two__alert">
+                            <p class="section__two__p">Ningún mensaje fue encontrado</p>
+                            <h4 class="section__two__h4">Ingresa el texto que desees encriptar o desencriptar.</h4>
+                        </div>
+                    </div>
+                    <div class="section__two__view">
+                        <textarea class="section__two__textarea" placeholder="Se muestra aquí" readonly></textarea>
+                        <div class="section__two__buttons">
+                            <button class="section__two__btn section__two__cpy">Copiar</button>
+                        </div>
+                    </div>              
+                    
+                </section>
+            </main>
+            <!-- END MAIN  -->
+            <!-- FOOTER  -->
+            <!-- <footer class="footer"></footer> -->
+            <!-- END FOOTER  -->
+        </div>
+        <!-- SCRIPTS -->
+        <script src="./assets/js/js.js"></script>
+        <!-- <script src="./assets/js/scripts.js"></script> -->
+    </body>
+    <!-- END BODY -->
+</html>
